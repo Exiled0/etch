@@ -1,4 +1,4 @@
-h1, h2 {
+body {
 	text-align: center;
 }
 h2 {
@@ -7,3 +7,29 @@ h2 {
 	padding: 10px;
 }
 
+#frame {
+	width: 600px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #B22;
+	border-radius: 2%;
+}
+
+#board {
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	margin-top: 25px;
+	margin-left: 50px;
+	background-color: #DDD;
+}
+
+/* not working yet*/
+.knob {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	color: #FFF;
+	border-radius: 100%;
+}

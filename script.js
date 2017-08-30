@@ -1,1 +1,3 @@
-//todo
+$(document).ready(function {
+	
+})
