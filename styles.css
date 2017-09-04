@@ -1,6 +1,10 @@
 body {
+	/*text-align: center;*/
+}
+h1, h2 {
 	text-align: center;
 }
+
 h2 {
 	font-size: 12pt;
 	font-style: italic;
@@ -23,16 +27,18 @@ h2 {
 	height: 400px;
 	margin-top: 25px;
 	margin-left: 50px;
+	font-size: 0;
 	background-color: #DDD; /* change to rgb later. %s will be easier*/
 }
 
 /* fine tune when working */
 .piece {
-	position: absolute;
-	width: 15px;	/*~15x~12?*/
-	height: 12px;
+	/*position: absolute;*/
+	/*width: 15px;	Need to change this to % and edit with js
+	height: 12px; */
 	background-color: #CCC;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
+	display: inline-block;
 }
 
 .knob {
