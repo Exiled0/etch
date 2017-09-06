@@ -1,6 +1,7 @@
 var numPiece = 16;
 var pieceHeight = 400/numPiece;
 var pieceWidth = 500/numPiece;
+var etchedRGB = 50;
 
 $(document).ready(function() {
 	/*something with the divs/for loop is adding spcae for next line...
@@ -10,4 +11,9 @@ $(document).ready(function() {
 	}
 	$(".piece").css("height", pieceHeight + "px");
 	$(".piece").css("width", pieceWidth + "px");
+
+	/*Etching*/
+	$(".piece").mouseenter(function() {
+		$(this).css("background-color", "rgb(" + etchedRGB + ", " + etchedRGB + ", " + etchedRGB + ")" );
+	});
 });

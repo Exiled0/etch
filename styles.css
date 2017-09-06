@@ -28,7 +28,7 @@ h2 {
 	margin-top: 25px;
 	margin-left: 50px;
 	font-size: 0;
-	background-color: #DDD; /* change to rgb later. %s will be easier*/
+	background-color: #DDD;
 }
 
 /* fine tune when working */
@@ -36,7 +36,7 @@ h2 {
 	/*position: absolute;*/
 	/*width: 15px;	Need to change this to % and edit with js
 	height: 12px; */
-	background-color: #CCC;
+	background-color: rgb(200, 200, 200);
 	/*border: 1px solid #000;*/
 	display: inline-block;
 }
