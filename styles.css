@@ -1,5 +1,5 @@
 body {
-	/*text-align: center;*/
+	text-align: center;
 }
 h1, h2 {
 	text-align: center;
@@ -23,7 +23,7 @@ h2 {
 
 #board {
 	position: absolute;
-	width: 500px;
+	width: 501px;	/* adding a pixel fixed the div size problem*/
 	height: 400px;
 	margin-top: 25px;
 	margin-left: 50px;
@@ -57,4 +57,7 @@ h2 {
 
 #right {
 	right: 35px;
+}
+button {
+	margin: 10px;
 }
