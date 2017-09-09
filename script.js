@@ -15,9 +15,8 @@ $(document).ready(function() {
 
 function reset() {
 	$(".piece").remove();	//clear all pieces
-	var pieceHeight = 400/numPiece; //helps with overflow
-	var pieceWidth = 500/numPiece;	//but still not right
-		//might have to switch from inline block to another way...
+	var pieceHeight = 400/numPiece;
+	var pieceWidth = 500/numPiece;
 
 	for(i=1; i<=numPiece * numPiece; i++) {
 		$('#board').append("<div class='piece'></div>");
